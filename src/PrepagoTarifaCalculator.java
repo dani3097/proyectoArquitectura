@@ -1,6 +1,6 @@
 
 public class PrepagoTarifaCalculator implements ITarifaCalculator {
-	 public double getMonto(){
+	 public double getTotalTarifa(){
 	        return getBaseMonto();
 	    }
 
