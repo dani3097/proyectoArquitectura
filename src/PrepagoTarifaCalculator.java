@@ -1,4 +1,7 @@
 
-public class PrepagoTarifaCalculator {
+public class PrepagoTarifaCalculator implements ITarifaCalculator {
+	 public double getMonto(){
+	        return getBaseMonto();
+	    }
 
 }
